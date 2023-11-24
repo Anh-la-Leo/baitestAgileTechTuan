@@ -1,0 +1,295 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+html {
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.no_login{
+margin-left: 120px ;
+margin-right: 120px;
+}
+.DangNhap{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.text_btn{
+  border-radius:50px;
+  width: 208.7px;
+  height: 59.63px;
+  background-color: #9C69E2;
+  box-shadow: 0px 5px 5px 0px rgba(75, 93, 104, 0.10);
+  border: none;
+
+}
+.link_login {
+  color: white;
+  text-decoration: none;
+} 
+/* main */
+.main{
+  display: flex;
+flex-direction: column;
+}
+.data_storage{
+display: flex;
+}
+.contenr_left{
+  width: 600px;
+  margin-top: 80px;
+}
+.contenr_left h1{
+color: #212353;
+font-size: 80px;
+font-style: normal;
+font-weight: 700;
+line-height: 110%;
+margin-bottom: 10px;
+
+}
+.contenr_left p{
+  width: 400px;
+  color: #4B5D68;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.link_login_one{
+  border-radius:50px;
+  width: 208.7px;
+  height: 59.63px;
+  background-color: #9C69E2;
+  box-shadow: 0px 5px 5px 0px rgba(75, 93, 104, 0.10);
+  border: none;
+  margin-top: 20px;
+}
+.image_one_right{
+  margin-top: 120px;
+}
+.features{
+display: flex;
+flex-direction: column;
+text-align: center;
+margin-top: 5%;
+}
+
+.img{
+  display: flex;
+  -ms-flex-align: center;
+  flex-wrap: wrap;
+}
+.img_search {
+  position: relative;
+  padding: 50px 100px;
+}
+
+.text-overlay {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 40%;
+  left: 65%;
+  text-align: left;
+  transform: translate(-50%, -50%);
+  color: rgb(26, 26, 26); 
+  font-size: 16px; 
+  font-weight: bold; 
+
+}
+.text-overlay h1{
+  margin-bottom: 20px;
+  color: #212353;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%;
+}
+.text-overlay p{
+  margin-bottom: 20px;
+  color: #4B5D68;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%;
+}.Testimo {
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+}
+
+.Testimo img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.testtext {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  text-align: left;
+  padding: 20px;
+  color: white;
+  width: 70%;
+}
+
+.testtext h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.card {
+  background-color: antiquewhite;
+  width: 1120px;
+height: 400px;
+  margin-top: 15%;
+  margin-left: 100px;
+  border-radius: 50px;
+}
+.son_card{
+  padding: 100px;
+  display: flex;
+}
+.son_card ul{
+  margin-left: 20px;
+}
+.son_card ul li {
+color: black;
+}
+/* footer */
+.footer_home{
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.footer_home_top{
+  display: flex;
+  justify-content: space-between;
+}
+.data_ware{
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 180%; /* 28.8px */
+  letter-spacing: 0.16px;
+}
+.local_one{
+  display: flex;
+}
+.local_one {
+  margin-bottom: 20px;
+}
+li{
+  list-style: none;
+}
+.local_one h2{
+  margin-left: 20px;
+}
+.local_two li{
+  font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 180%; /* 28.8px */
+letter-spacing: 0.16px;
+}
+.local_three{
+  margin-top: 10px;
+}
+.local_two_social{
+  display: flex;
+}
+.local_two_social li{
+  margin-left: 10px
+}
+.footer_home_bot{
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer_home_bot ul li{
+  color: var(--2, #212353);
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 180%; /* 21.6px */
+letter-spacing: 0.12px;
+}
+.species_action_search{
+  margin-right: 160px;
+}
+
+.link_add{
+  text-decoration: none;
+  color: white;
+}
+
+/* responsive */
+@media screen and (max-width: 992px) {
+  .data_storage {
+    display: flex;
+    flex-direction: column;
+  }
+  .card{
+    width: 800px;
+    height: 200px;
+  }
+  .footer_home_top{
+    display: flex;
+    flex-direction: column;
+    grid-row: 2;
+  }
+  .form_table{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  table, td {
+    width:auto;
+  }
+  .left_table{
+    width: 100vh !important;
+    height: 200px !important;
+  }
+  .species_action_search{
+    display: flex;
+    margin-right: 0px !important;
+  }
+  .species_action_search input{
+    width: 120px;
+  }
+  .search_title{
+    margin-right: 20px;
+  }
+  .items_per_page{
+    margin-left: 0px; ;
+  }
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+  .right_table{
+    padding: 50px ;
+  }
+ 
+  .left_table{
+    width: 100vh !important;
+    height: 150px !important;
+  }
+  .contetain{
+    display: flex;
+  }
+  .contetain ul{
+    display: flex;
+  }
+  .contetain ul li{
+    padding-left: 20px;
+  }
+}

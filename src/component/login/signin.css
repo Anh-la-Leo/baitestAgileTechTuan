@@ -1,0 +1,55 @@
+.Signin{
+    margin: 0 120px 0 120px;
+}
+.header_signin{
+    margin-top: 20px;
+    position: fixed;
+    z-index: 1;
+}
+.main_signin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Thiết lập chiều cao cho toàn bộ màn hình (viewport height) */
+}
+
+.from_signin {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px; /* Thiết lập chiều rộng cho form */
+    background-color: #fff;
+    margin-top: 20px; /* Khoảng cách giữa form và ảnh */
+}
+.from_signin h1{
+    color: #000;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; 
+    letter-spacing: 0.32px;
+}
+.lab_in{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 30px 0;
+}
+.lab_in input{
+    width: 300px;   
+    height: 57px;
+    border-radius: 6px;
+    border: 1px solid #000;
+    background: #FDFDFD;
+}
+.text_btn_signin{
+    width: 300px;   
+    height: 40px;
+    border-radius: 6px;
+    border-radius: 50px;
+    background: #9C69E2;
+    border: none;
+}

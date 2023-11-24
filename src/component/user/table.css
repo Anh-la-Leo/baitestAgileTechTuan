@@ -1,0 +1,94 @@
+.form_table{
+    display:flex ;
+}
+.left_table{
+    width: 250px;
+    background-color: #D9D9D9;
+    height: 100vh;
+}
+.contetain{
+    padding:30px;
+}
+.contetain ul li{
+    color: black;
+    margin-top: 20px;
+}
+.right_table{
+    padding: 50px 60px 0 120px;
+}
+.top_table{
+    margin-bottom: 20px;
+    display:flex ;
+    justify-content: space-between;
+}
+
+.text_btn_add{
+    border-radius: 50px;
+background:  #9C69E2;
+box-shadow: 0px 5px 5px 0px rgba(75, 93, 104, 0.10);
+width: 200px;
+height: 40px;
+border: none;
+color: white;
+
+
+}
+.search_title{
+    width: 250px;
+    height: 40px;
+    margin-right: 120px;
+}
+.search_tags{
+    width: 250px;
+    height: 40px;
+}
+table, td {
+    border:1px solid black;
+    background:#D9D9D9 ;
+    border-collapse: collapse;
+  }
+  thead tr td{
+    text-align: center;
+  }
+  .col_id{
+    width: 50px;
+    text-align: center;
+  }
+  .col_title{
+    text-align: center;
+  }
+  .col_descrip{
+    width: 900px;
+    padding:0 20px ;
+  }
+  .col_tags{
+    text-align: center;
+  }
+
+  .icon_table{
+    width: 100px;
+  }
+  .icon_table div{
+    display: flex;
+  }
+  .icon_table div p{
+    padding:0 30px;
+  }
+.items_per_page{
+    max-width: 1200px;
+    margin-top: 20px;
+    margin-left: 1150px;
+}
+  #itemsPerPage{
+    width: 120px;
+    height: 30px;
+  }
+  .link_posts{
+    text-decoration: none;
+  color: black;
+  }
+  .link_logout{
+    text-decoration: none;
+  color: black;
+  }
+  
